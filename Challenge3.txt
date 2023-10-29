@@ -1,0 +1,20 @@
+def get_neted(obj,key):
+    keys = key.split('/')
+    current = obj
+    try:
+        for k in keys:
+            current = current[k]
+        return current
+    except(KeyError,TypeError):
+        return None
+                
+object2 ={"x":{"y":{"z":"a"}}}
+key2 = "x/y/z"
+vaue1=get_neted(object2,key2)
+print(vaue1)
+
+_______________________________________________
+
+OUTPUT
+
+a

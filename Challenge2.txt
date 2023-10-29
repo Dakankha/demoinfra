@@ -1,0 +1,12 @@
+
+
+
+curl --requet GET --url 'https://reqbin.com/echo/get/json' -k'
+
+
+
+
+Date: Sun, 29 Oct 2023 17:23:27 GMTContent-Type: application/jsonContent-Length: 19Connection: keep-aliveLast-Modified: Sun, 29 Oct 2023 16:32:58 GMT
+Cache-Control: max-age=31536000CF-Cache-Status: HITAccept-Ranges: bytes Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NPzCBf2Lq1fzh93Xe4NkKuE6s%2F5%2FqmMI8s3UX6y7%2BfYlAsFbpaTu5fVmLQgBd4knXYaKUQdgreYyNsIXlQIza0K%2BCd6du9zpxrN9mjbiRyb91BwCBfBM0bSxHXw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}Vary: Accept-Encodingreferrer-policy: same-originx-content-type-options: nosniffx-frame-options: SAMEORIGINx-xss-protection: 1; mode=blockAccess-Control-Allow-Origin: https://reqbin.com
+Server: cloudflareCF-RAY: 81dd1b437fb20f8f-EWRalt-svc: h3=":443"; ma=86400
